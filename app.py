@@ -1,8 +1,6 @@
 import os
 import sys
-from tabnanny import check
-from types import new_class
-from pedalboard import Pedalboard, Chorus, Reverb, HighpassFilter, \
+from pedalboard import Pedalboard, Reverb, HighpassFilter, \
   LowpassFilter, PitchShift, Gain, Resample
 
 from pedalboard.io import AudioFile
